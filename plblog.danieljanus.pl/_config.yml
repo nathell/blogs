@@ -1,0 +1,25 @@
+# Site settings
+title: lambdaniel
+author: Daniel Janus
+email: dj@danieljanus.pl
+gems: 
+  - octopress-codefence
+  - octopress-genesis-theme
+  - octopress-solarized
+  - octopress-social
+  - octopress-debugger
+  - octopress-image-tag
+description:
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://plblog.danieljanus.pl" # the base hostname & protocol for your site
+linkblog:
+  titlecase: false
+date_format: '%-d %B %Y'
+permalink: /blog/:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
+
+disqus:
+  shortname: lambdaniel
+

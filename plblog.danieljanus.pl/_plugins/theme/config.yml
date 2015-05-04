@@ -1,0 +1,32 @@
+# Settings for main header
+title: lambdaniel
+subtitle: I don’t understand, ich verstehe nicht, не понимаю.
+
+# Links for main navigation
+main_nav:
+  - { url: 'http://blog.danieljanus.pl/', title: 'English blog' }
+  - { url: 'http://plblog.danieljanus.pl/', title: 'Blog po polsku' }
+  - { url: '/archive/', title: 'Archiwum' }
+
+# Link labels
+permalink_label: "Link"
+read_more_label: "Czytaj dalej →"
+
+# Show excerpts on post index
+excerpt_posts: true
+# Excerpt linkposts on index
+excerpt_linkposts: true
+
+search: google
+
+sharing:
+
+# Defaults to sharing with links (for speed and privacy)
+# To use javascript share buttons, set share_with: buttons
+share_with: links
+
+# Embed comments, options: false, facebook, disqus
+comments: disqus
+
+# Center the text in post and page headings.
+center_headings: true
